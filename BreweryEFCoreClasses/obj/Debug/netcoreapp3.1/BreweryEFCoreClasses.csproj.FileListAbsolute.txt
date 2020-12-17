@@ -1,0 +1,13 @@
+D:\classxis\Fall2020\CS234\project\entity_framework\BreweryEFCore\BreweryEFCoreClasses\bin\Debug\netcoreapp3.1\BreweryEFCoreClasses.deps.json
+D:\classxis\Fall2020\CS234\project\entity_framework\BreweryEFCore\BreweryEFCoreClasses\bin\Debug\netcoreapp3.1\BreweryEFCoreClasses.runtimeconfig.json
+D:\classxis\Fall2020\CS234\project\entity_framework\BreweryEFCore\BreweryEFCoreClasses\bin\Debug\netcoreapp3.1\BreweryEFCoreClasses.runtimeconfig.dev.json
+D:\classxis\Fall2020\CS234\project\entity_framework\BreweryEFCore\BreweryEFCoreClasses\bin\Debug\netcoreapp3.1\BreweryEFCoreClasses.dll
+D:\classxis\Fall2020\CS234\project\entity_framework\BreweryEFCore\BreweryEFCoreClasses\bin\Debug\netcoreapp3.1\BreweryEFCoreClasses.pdb
+D:\classxis\Fall2020\CS234\project\entity_framework\BreweryEFCore\BreweryEFCoreClasses\obj\Debug\netcoreapp3.1\BreweryEFCoreClasses.csprojAssemblyReference.cache
+D:\classxis\Fall2020\CS234\project\entity_framework\BreweryEFCore\BreweryEFCoreClasses\obj\Debug\netcoreapp3.1\BreweryEFCoreClasses.AssemblyInfoInputs.cache
+D:\classxis\Fall2020\CS234\project\entity_framework\BreweryEFCore\BreweryEFCoreClasses\obj\Debug\netcoreapp3.1\BreweryEFCoreClasses.AssemblyInfo.cs
+D:\classxis\Fall2020\CS234\project\entity_framework\BreweryEFCore\BreweryEFCoreClasses\obj\Debug\netcoreapp3.1\BreweryEFCoreClasses.csproj.CoreCompileInputs.cache
+D:\classxis\Fall2020\CS234\project\entity_framework\BreweryEFCore\BreweryEFCoreClasses\obj\Debug\netcoreapp3.1\BreweryEFCoreClasses.dll
+D:\classxis\Fall2020\CS234\project\entity_framework\BreweryEFCore\BreweryEFCoreClasses\obj\Debug\netcoreapp3.1\BreweryEFCoreClasses.pdb
+D:\classxis\Fall2020\CS234\project\entity_framework\BreweryEFCore\BreweryEFCoreClasses\obj\Debug\netcoreapp3.1\BreweryEFCoreClasses.genruntimeconfig.cache
+D:\classxis\Fall2020\CS234\project\entity_framework\BreweryEFCore\BreweryEFCoreClasses\bin\Debug\netcoreapp3.1\mySqlSettings.json

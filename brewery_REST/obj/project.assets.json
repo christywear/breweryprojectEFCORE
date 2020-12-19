@@ -9802,11 +9802,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\classxis\\Fall2020__cs234NCSharp_cs260\\CS234\\project\\entity_framework\\BreweryEFCore\\brewery_REST\\brewery_REST.csproj",
+      "projectUniqueName": "D:\\classxis\\Fall2020__cs234NCSharp_cs260\\CS234\\project\\entity_framework\\derp\\breweryprojectEFCORE\\brewery_REST\\brewery_REST.csproj",
       "projectName": "brewery_REST",
-      "projectPath": "D:\\classxis\\Fall2020__cs234NCSharp_cs260\\CS234\\project\\entity_framework\\BreweryEFCore\\brewery_REST\\brewery_REST.csproj",
+      "projectPath": "D:\\classxis\\Fall2020__cs234NCSharp_cs260\\CS234\\project\\entity_framework\\derp\\breweryprojectEFCORE\\brewery_REST\\brewery_REST.csproj",
       "packagesPath": "C:\\Users\\wearc\\.nuget\\packages\\",
-      "outputPath": "D:\\classxis\\Fall2020__cs234NCSharp_cs260\\CS234\\project\\entity_framework\\BreweryEFCore\\brewery_REST\\obj\\",
+      "outputPath": "D:\\classxis\\Fall2020__cs234NCSharp_cs260\\CS234\\project\\entity_framework\\derp\\breweryprojectEFCORE\\brewery_REST\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -9827,8 +9827,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\classxis\\Fall2020__cs234NCSharp_cs260\\CS234\\project\\entity_framework\\BreweryEFCore\\BreweryEFCoreClasses\\BreweryEFCoreClasses.csproj": {
-              "projectPath": "D:\\classxis\\Fall2020__cs234NCSharp_cs260\\CS234\\project\\entity_framework\\BreweryEFCore\\BreweryEFCoreClasses\\BreweryEFCoreClasses.csproj"
+            "D:\\classxis\\Fall2020__cs234NCSharp_cs260\\CS234\\project\\entity_framework\\derp\\breweryprojectEFCORE\\BreweryEFCoreClasses\\BreweryEFCoreClasses.csproj": {
+              "projectPath": "D:\\classxis\\Fall2020__cs234NCSharp_cs260\\CS234\\project\\entity_framework\\derp\\breweryprojectEFCORE\\BreweryEFCoreClasses\\BreweryEFCoreClasses.csproj"
             }
           }
         }

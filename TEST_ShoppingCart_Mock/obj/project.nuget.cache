@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Z72QhJM/lzxWVtzmOj3o91D4WLiZL65yv5PyAVe38kGErSOq4TAPHFXbmdEwL07AzYDtCb5itcavpcnm/8j9og==",
+  "dgSpecHash": "Yg/9skinSmRAdHL84T1ZBohBDfx7p6JcK0f78941KhXqlsOglJnRpE9gp14/l47hbZvHlsTM9hXU93D0v2w9Kg==",
   "success": true,
-  "projectFilePath": "D:\\classxis\\Fall2020__cs234NCSharp_cs260\\CS234\\project\\entity_framework\\BreweryEFCore\\TEST_ShoppingCart_Mock\\TEST_ShoppingCart_Mock.csproj",
+  "projectFilePath": "D:\\classxis\\Fall2020__cs234NCSharp_cs260\\CS234\\project\\entity_framework\\derp\\breweryprojectEFCORE\\TEST_ShoppingCart_Mock\\TEST_ShoppingCart_Mock.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\wearc\\.nuget\\packages\\bouncycastle.netcore\\1.8.3\\bouncycastle.netcore.1.8.3.nupkg.sha512",
     "C:\\Users\\wearc\\.nuget\\packages\\google.protobuf\\3.6.1\\google.protobuf.3.6.1.nupkg.sha512",

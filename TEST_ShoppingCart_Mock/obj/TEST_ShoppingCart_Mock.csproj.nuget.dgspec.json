@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\classxis\\Fall2020__cs234NCSharp_cs260\\CS234\\project\\entity_framework\\BreweryEFCore\\TEST_ShoppingCart_Mock\\TEST_ShoppingCart_Mock.csproj": {}
+    "D:\\classxis\\Fall2020__cs234NCSharp_cs260\\CS234\\project\\entity_framework\\derp\\breweryprojectEFCORE\\TEST_ShoppingCart_Mock\\TEST_ShoppingCart_Mock.csproj": {}
   },
   "projects": {
-    "D:\\classxis\\Fall2020__cs234NCSharp_cs260\\CS234\\project\\entity_framework\\BreweryEFCore\\BreweryEFCoreClasses\\BreweryEFCoreClasses.csproj": {
+    "D:\\classxis\\Fall2020__cs234NCSharp_cs260\\CS234\\project\\entity_framework\\derp\\breweryprojectEFCORE\\BreweryEFCoreClasses\\BreweryEFCoreClasses.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\classxis\\Fall2020__cs234NCSharp_cs260\\CS234\\project\\entity_framework\\BreweryEFCore\\BreweryEFCoreClasses\\BreweryEFCoreClasses.csproj",
+        "projectUniqueName": "D:\\classxis\\Fall2020__cs234NCSharp_cs260\\CS234\\project\\entity_framework\\derp\\breweryprojectEFCORE\\BreweryEFCoreClasses\\BreweryEFCoreClasses.csproj",
         "projectName": "BreweryEFCoreClasses",
-        "projectPath": "D:\\classxis\\Fall2020__cs234NCSharp_cs260\\CS234\\project\\entity_framework\\BreweryEFCore\\BreweryEFCoreClasses\\BreweryEFCoreClasses.csproj",
+        "projectPath": "D:\\classxis\\Fall2020__cs234NCSharp_cs260\\CS234\\project\\entity_framework\\derp\\breweryprojectEFCORE\\BreweryEFCoreClasses\\BreweryEFCoreClasses.csproj",
         "packagesPath": "C:\\Users\\wearc\\.nuget\\packages\\",
-        "outputPath": "D:\\classxis\\Fall2020__cs234NCSharp_cs260\\CS234\\project\\entity_framework\\BreweryEFCore\\BreweryEFCoreClasses\\obj\\",
+        "outputPath": "D:\\classxis\\Fall2020__cs234NCSharp_cs260\\CS234\\project\\entity_framework\\derp\\breweryprojectEFCORE\\BreweryEFCoreClasses\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -118,14 +118,14 @@
         }
       }
     },
-    "D:\\classxis\\Fall2020__cs234NCSharp_cs260\\CS234\\project\\entity_framework\\BreweryEFCore\\TEST_ShoppingCart_Mock\\TEST_ShoppingCart_Mock.csproj": {
+    "D:\\classxis\\Fall2020__cs234NCSharp_cs260\\CS234\\project\\entity_framework\\derp\\breweryprojectEFCORE\\TEST_ShoppingCart_Mock\\TEST_ShoppingCart_Mock.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\classxis\\Fall2020__cs234NCSharp_cs260\\CS234\\project\\entity_framework\\BreweryEFCore\\TEST_ShoppingCart_Mock\\TEST_ShoppingCart_Mock.csproj",
+        "projectUniqueName": "D:\\classxis\\Fall2020__cs234NCSharp_cs260\\CS234\\project\\entity_framework\\derp\\breweryprojectEFCORE\\TEST_ShoppingCart_Mock\\TEST_ShoppingCart_Mock.csproj",
         "projectName": "TEST_ShoppingCart_Mock",
-        "projectPath": "D:\\classxis\\Fall2020__cs234NCSharp_cs260\\CS234\\project\\entity_framework\\BreweryEFCore\\TEST_ShoppingCart_Mock\\TEST_ShoppingCart_Mock.csproj",
+        "projectPath": "D:\\classxis\\Fall2020__cs234NCSharp_cs260\\CS234\\project\\entity_framework\\derp\\breweryprojectEFCORE\\TEST_ShoppingCart_Mock\\TEST_ShoppingCart_Mock.csproj",
         "packagesPath": "C:\\Users\\wearc\\.nuget\\packages\\",
-        "outputPath": "D:\\classxis\\Fall2020__cs234NCSharp_cs260\\CS234\\project\\entity_framework\\BreweryEFCore\\TEST_ShoppingCart_Mock\\obj\\",
+        "outputPath": "D:\\classxis\\Fall2020__cs234NCSharp_cs260\\CS234\\project\\entity_framework\\derp\\breweryprojectEFCORE\\TEST_ShoppingCart_Mock\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -146,8 +146,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\classxis\\Fall2020__cs234NCSharp_cs260\\CS234\\project\\entity_framework\\BreweryEFCore\\BreweryEFCoreClasses\\BreweryEFCoreClasses.csproj": {
-                "projectPath": "D:\\classxis\\Fall2020__cs234NCSharp_cs260\\CS234\\project\\entity_framework\\BreweryEFCore\\BreweryEFCoreClasses\\BreweryEFCoreClasses.csproj"
+              "D:\\classxis\\Fall2020__cs234NCSharp_cs260\\CS234\\project\\entity_framework\\derp\\breweryprojectEFCORE\\BreweryEFCoreClasses\\BreweryEFCoreClasses.csproj": {
+                "projectPath": "D:\\classxis\\Fall2020__cs234NCSharp_cs260\\CS234\\project\\entity_framework\\derp\\breweryprojectEFCORE\\BreweryEFCoreClasses\\BreweryEFCoreClasses.csproj"
               }
             }
           }

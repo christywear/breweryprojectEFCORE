@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pJua/AB6alK0Bq/wgiTB5IFdJcM2qPpx3iUFJUrw0LY/SVoveMAB2UNWz8YYbeNkKDcS7jtplovNXVOMPPsEiA==",
+  "dgSpecHash": "uYNR4kRJzXeX3EeMfkBGGXsprl09jU45lCa8zUyJ7O0mMOj9R4jzZC+29XhZ3Kc03doixfy0XDw0h/jgjyy9vw==",
   "success": true,
-  "projectFilePath": "D:\\classxis\\Fall2020__cs234NCSharp_cs260\\CS234\\project\\entity_framework\\BreweryEFCore\\brewery_REST\\brewery_REST.csproj",
+  "projectFilePath": "D:\\classxis\\Fall2020__cs234NCSharp_cs260\\CS234\\project\\entity_framework\\derp\\breweryprojectEFCORE\\brewery_REST\\brewery_REST.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\wearc\\.nuget\\packages\\bouncycastle.netcore\\1.8.3\\bouncycastle.netcore.1.8.3.nupkg.sha512",
     "C:\\Users\\wearc\\.nuget\\packages\\google.protobuf\\3.6.1\\google.protobuf.3.6.1.nupkg.sha512",

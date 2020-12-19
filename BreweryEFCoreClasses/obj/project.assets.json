@@ -6708,11 +6708,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\classxis\\Fall2020__cs234NCSharp_cs260\\CS234\\project\\entity_framework\\BreweryEFCore\\BreweryEFCoreClasses\\BreweryEFCoreClasses.csproj",
+      "projectUniqueName": "D:\\classxis\\Fall2020__cs234NCSharp_cs260\\CS234\\project\\entity_framework\\derp\\breweryprojectEFCORE\\BreweryEFCoreClasses\\BreweryEFCoreClasses.csproj",
       "projectName": "BreweryEFCoreClasses",
-      "projectPath": "D:\\classxis\\Fall2020__cs234NCSharp_cs260\\CS234\\project\\entity_framework\\BreweryEFCore\\BreweryEFCoreClasses\\BreweryEFCoreClasses.csproj",
+      "projectPath": "D:\\classxis\\Fall2020__cs234NCSharp_cs260\\CS234\\project\\entity_framework\\derp\\breweryprojectEFCORE\\BreweryEFCoreClasses\\BreweryEFCoreClasses.csproj",
       "packagesPath": "C:\\Users\\wearc\\.nuget\\packages\\",
-      "outputPath": "D:\\classxis\\Fall2020__cs234NCSharp_cs260\\CS234\\project\\entity_framework\\BreweryEFCore\\BreweryEFCoreClasses\\obj\\",
+      "outputPath": "D:\\classxis\\Fall2020__cs234NCSharp_cs260\\CS234\\project\\entity_framework\\derp\\breweryprojectEFCORE\\BreweryEFCoreClasses\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"

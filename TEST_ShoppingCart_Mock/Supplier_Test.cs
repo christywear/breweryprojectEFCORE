@@ -20,10 +20,6 @@ namespace TEST_ShoppingCart_Mock
         private List<SupplierAddress> supAddrList;
         private List<AddressType> addTypeList;
         private List<Address> addresses;
-        private List<Ingredient> ingList;
-        private List<RecipeIngredient> recipeList;
-        private List<IngredientType> ingTypeList;
-        private List<IngredientInventoryAddition> ingOrderList;
 
         [SetUp]
         public void Setup()
@@ -33,10 +29,6 @@ namespace TEST_ShoppingCart_Mock
             supAddrList = dbContext.SupplierAddress.OrderBy(s => s.SupplierId).ToList();
             addTypeList = dbContext.AddressType.OrderBy(s => s.AddressTypeId).ToList();
             addresses = dbContext.Address.OrderBy(s => s.AddressId).ToList();
-            recipeList = dbContext.RecipeIngredient.Where(s => s.RecipeId == 1).ToList();
-            ingList = dbContext.Ingredient.OrderBy(s => s.IngredientId).ToList();
-            ingTypeList = dbContext.IngredientType.OrderBy(s => s.IngredientTypeId).ToList();
-            ingOrderList = dbContext.IngredientInventoryAddition.OrderBy(s => s.IngredientInventoryAdditionId).ToList();
 
         }
 
@@ -79,41 +71,9 @@ namespace TEST_ShoppingCart_Mock
             // notes
             Console.WriteLine("Notes: " + supList[0].Note + "\n");
 
-            // print list of needed recipe ingredients based off recipe id 1
-            Console.WriteLine("Ingredients for recipe " + recipeList[1] + ": ");
-            PrintAll(recipeList);
-
-
         }
 
-        public void PrintAll(List<RecipeIngredient> inv)
-        {
-            foreach (RecipeIngredient I in inv)
-            {
-                Console.Write("Name of Ingredient:  " + ingList[I.IngredientId - 1].Name);
-                Console.Write("  , Type:  " + ingTypeList[ingList[I.IngredientId - 1].IngredientTypeId - 1].Name);
-                Console.Write("  , Amount on Order:  " + ingOrderList[I.RecipeIngredientId - 1].Quantity);
-                Console.Write("  , Amount in inventory:  " + ingList[I.IngredientId - 1].OnHandQuantity);
-                Console.Write("  , Scheduled to use:  " + recipeList[I.RecipeIngredientId- 1].Quantity);
-                Console.Write("  , Cost per unit:  " + ingList[I.IngredientId - 1].UnitCost);
-                Console.Write("  , SubTotal:  " + (ingList[I.IngredientId - 1].UnitCost * (decimal)ingOrderList[ingOrderList.FindIndex(x => x.IngredientId == I.IngredientId)].Quantity));
-                Console.Write("  , Supplier : " + supList[ingOrderList[ingOrderList.FindIndex(x => x.IngredientId == I.IngredientId)].SupplierId -1].Name);
-                Console.WriteLine();
-                
-
-            }
-
-        }
 
     }
 
 }
-// debug
-/* 
- *  +
-+
-"  +
-"  +
-"  +
-" 
-*/

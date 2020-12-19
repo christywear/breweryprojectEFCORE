@@ -129,17 +129,26 @@ namespace TEST_ShoppingCart_Mock
                         where yeet.ProductId == "EE101RED"
                         select yeet;
 
-            var myIngredients = from ing in dbContext.Ingredient
-                                where ing.Name == "The Time Traveler"
-                                select ing;
+            List<Ingredient> myIngredients = new List<Ingredient>();
+            myIngredients = dbContext.Ingredient.Where(x => x.Name == "The Time Traveler").ToList();
+            myIngredients.Reverse();
             //var myyeast = dbContext.Yeast.SingleOrDefault(Yeast => Yeast.IngredientId == 1175);
             //var myIngredient = dbContext.Ingredient.SingleOrDefault(I => I.IngredientId == 1175);
             List<Ingredient> check_ing = new List<Ingredient>();
             List<Yeast> check_yeast = new List<Yeast>();
-            foreach (Ingredient I in myIngredients)
+            foreach (var I in myIngredients)
             {
+                if(I.IngredientTypeId == 4)
+                {
+                    Yeast grr = new Yeast(); 
+                    grr = yeasts.FirstOrDefault(x => x.IngredientId == I.IngredientId);
+                    dbContext.Yeast.Remove(grr);
+                    
+                }
                 dbContext.Ingredient.Remove(I);
+                
                 check_ing.Add(I);
+
             }
 
             dbContext.SaveChanges();

@@ -186,7 +186,18 @@ namespace TEST_ShoppingCart_Mock
         public void DeleteSupplier()
         {
             SupplierAddress supAddr = new SupplierAddress();
-           if (addresses.FindIndex(x => x.StreetLine1 == "123 neato st.") == -1)
+            //update links to data
+            if (supList.FindIndex(x => x.Name == "Neato Labs") == -1)
+                sup = null;
+            else
+                sup = sup = dbContext.Supplier.SingleOrDefault(x => x.Name == "Neato Labs");
+            if (sup == null || supAddrList.FindIndex(x => x.SupplierId == sup.SupplierId) == -1)
+                supAddr = null;
+            else
+            {
+                supAddr = dbContext.SupplierAddress.SingleOrDefault(x => x.SupplierId == sup.SupplierId);
+            }
+            if (addresses.FindIndex(x => x.StreetLine1 == "123 neato st.") == -1)
             {
                 if (addresses.FindIndex(x => x.StreetLine1 == "1010 farmvalley rd.") != -1)
                 {
@@ -194,12 +205,12 @@ namespace TEST_ShoppingCart_Mock
 
                 }
             }
-            else
+            else if (addresses.FindIndex(x => x.StreetLine1 == "123 neato st.") == -1)
             {
-                addr = dbContext.Address.SingleOrDefault(x => x.StreetLine1 == "123 neato st.");
+                addr = null;
             }
-            sup = dbContext.Supplier.SingleOrDefault(x => x.Name == "Neato Labs");
-            supAddr = dbContext.SupplierAddress.SingleOrDefault(x => x.SupplierId == sup.SupplierId);
+
+            //verify
             if (sup == null)
             {
                 Assert.Fail("Address is null");
@@ -228,6 +239,8 @@ namespace TEST_ShoppingCart_Mock
             //update links to data
             if (supList.FindIndex(x => x.Name == "Neato Labs") == -1)
                 sup = null;
+            else
+                sup = sup = dbContext.Supplier.SingleOrDefault(x => x.Name == "Neato Labs");
             if (sup == null || supAddrList.FindIndex(x => x.SupplierId == sup.SupplierId) == -1)
                 supAddr = null;
             else

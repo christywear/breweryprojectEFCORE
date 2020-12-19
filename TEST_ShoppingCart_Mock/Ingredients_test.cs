@@ -56,8 +56,6 @@ namespace TEST_ShoppingCart_Mock
                 Console.Write("  , SubTotal:  " + (ingList[I.IngredientId - 1].UnitCost * (decimal)ingOrderList[ingOrderList.FindIndex(x => x.IngredientId == I.IngredientId)].Quantity));
                 Console.Write("  , Supplier : " + supList[ingOrderList[ingOrderList.FindIndex(x => x.IngredientId == I.IngredientId)].SupplierId - 1].Name);
                 Console.WriteLine();
-
-
             }
 
         }

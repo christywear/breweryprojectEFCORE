@@ -80,7 +80,7 @@ namespace TEST_ShoppingCart_Mock
             Console.WriteLine("Notes: " + supList[0].Note + "\n");
 
             // print list of needed recipe ingredients based off recipe id 1
-            Console.WriteLine("Ingredients for recipe: ");
+            Console.WriteLine("Ingredients for recipe " + recipeList[1] + ": ");
             PrintAll(recipeList);
 
 

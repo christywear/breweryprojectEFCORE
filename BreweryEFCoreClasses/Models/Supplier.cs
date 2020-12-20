@@ -25,14 +25,6 @@ namespace BreweryEFCoreClasses.Models
         public virtual ICollection<IngredientInventoryAddition> IngredientInventoryAddition { get; set; }
         public virtual ICollection<SupplierAddress> SupplierAddress { get; set; }
 
-        public override string ToString()
-        {
-            
-            return base.ToString();
-                //SupplierId + ", " + Name + ", " + Phone + ", " +
-                //Email + ", " + Website + ", " + ContactFirstName + ", " +
-                //ContactLastName + ", " + ContactPhone + ", " + ContactEmail
-                 //+ ", " +  Note;
-        }
+
     }
 }

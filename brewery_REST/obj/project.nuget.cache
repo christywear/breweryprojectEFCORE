@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "uYNR4kRJzXeX3EeMfkBGGXsprl09jU45lCa8zUyJ7O0mMOj9R4jzZC+29XhZ3Kc03doixfy0XDw0h/jgjyy9vw==",
+  "dgSpecHash": "7G8WCNP2Bq/2QLGu/bwW6QBEu5BXwywzjKaCj34lp7Pk6ZW6FiLYTQNZLE9jCQP+s8DxJSCF3Fc0wKnc6tUSTA==",
   "success": true,
   "projectFilePath": "D:\\classxis\\Fall2020__cs234NCSharp_cs260\\CS234\\project\\entity_framework\\derp\\breweryprojectEFCORE\\brewery_REST\\brewery_REST.csproj",
   "expectedPackageFiles": [
@@ -194,9 +194,7 @@
     "C:\\Users\\wearc\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\wearc\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
     "C:\\Users\\wearc\\.nuget\\packages\\system.xml.xpath\\4.0.1\\system.xml.xpath.4.0.1.nupkg.sha512",
-    "C:\\Users\\wearc\\.nuget\\packages\\system.xml.xpath.xmldocument\\4.0.1\\system.xml.xpath.xmldocument.4.0.1.nupkg.sha512",
-    "C:\\Users\\wearc\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
-    "C:\\Users\\wearc\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.10\\microsoft.netcore.app.host.win-x64.3.1.10.nupkg.sha512"
+    "C:\\Users\\wearc\\.nuget\\packages\\system.xml.xpath.xmldocument\\4.0.1\\system.xml.xpath.xmldocument.4.0.1.nupkg.sha512"
   ],
   "logs": []
 }

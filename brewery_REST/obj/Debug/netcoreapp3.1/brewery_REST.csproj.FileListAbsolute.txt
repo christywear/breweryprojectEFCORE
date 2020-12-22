@@ -172,9 +172,9 @@ D:\classxis\Fall2020\CS234\project\entity_framework\BreweryEFCore\brewery_REST\b
 D:\classxis\Fall2020\CS234\project\entity_framework\BreweryEFCore\brewery_REST\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
 D:\classxis\Fall2020\CS234\project\entity_framework\BreweryEFCore\brewery_REST\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
 D:\classxis\Fall2020\CS234\project\entity_framework\BreweryEFCore\brewery_REST\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+D:\classxis\Fall2020__cs234NCSharp_cs260\CS234\project\entity_framework\derp\breweryprojectEFCORE\brewery_REST\bin\Debug\netcoreapp3.1\mySqlSettings.json
 D:\classxis\Fall2020__cs234NCSharp_cs260\CS234\project\entity_framework\derp\breweryprojectEFCORE\brewery_REST\bin\Debug\netcoreapp3.1\appsettings.Development.json
 D:\classxis\Fall2020__cs234NCSharp_cs260\CS234\project\entity_framework\derp\breweryprojectEFCORE\brewery_REST\bin\Debug\netcoreapp3.1\appsettings.json
-D:\classxis\Fall2020__cs234NCSharp_cs260\CS234\project\entity_framework\derp\breweryprojectEFCORE\brewery_REST\bin\Debug\netcoreapp3.1\mySqlSettings.json
 D:\classxis\Fall2020__cs234NCSharp_cs260\CS234\project\entity_framework\derp\breweryprojectEFCORE\brewery_REST\bin\Debug\netcoreapp3.1\brewery_REST.exe
 D:\classxis\Fall2020__cs234NCSharp_cs260\CS234\project\entity_framework\derp\breweryprojectEFCORE\brewery_REST\bin\Debug\netcoreapp3.1\brewery_REST.deps.json
 D:\classxis\Fall2020__cs234NCSharp_cs260\CS234\project\entity_framework\derp\breweryprojectEFCORE\brewery_REST\bin\Debug\netcoreapp3.1\brewery_REST.runtimeconfig.json

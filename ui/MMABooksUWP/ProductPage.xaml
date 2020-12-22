@@ -1,0 +1,58 @@
+﻿<Page
+    x:Class="MMABooksUWP.ProductPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MMABooksUWP"
+    xmlns:model="using:MMABooksUWP.Models"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+    FontFamily="Comic Sans MS"
+    Loaded="Page_Loaded">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="6*"/>
+            <ColumnDefinition Width="2*"/>
+        </Grid.ColumnDefinitions>
+        <Border Grid.Column="0"/>
+        <StackPanel Grid.Column="0" Orientation="Vertical" Padding="10">
+            <TextBlock Padding="6" FontSize="32">Product Information</TextBlock>
+            <StackPanel Orientation="Horizontal" Margin="6" Padding="6" >
+                <TextBlock x:Name="ProductCodeLabel" TextAlignment="Right" Width="240" FontSize="24" Padding="6" Text="Product Code" ></TextBlock>
+                <TextBox x:Name="ProductCodeTxt" Text="{Binding Path=ProductCode, Mode=TwoWay}" Width="200" FontSize="20" Grid.Column="1" Grid.Row="0" TabIndex="0" ></TextBox>
+                <Button Width="200" FontSize="20" Margin="6" Padding="6" Name="findBtn" Click="findBtn_Click" TabIndex="1">Find</Button>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="6" Padding="6">
+                <TextBlock TextAlignment="Right" Width="240" FontSize="24" Padding="6" Text="Description" Grid.Row="1"></TextBlock>
+                <TextBox x:Name="DescriptionTxt" Text="{Binding Path=Description, Mode=TwoWay}" Width="406" FontSize="20" Grid.Column="1" Grid.Row="1" TabIndex="2" />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="6" Padding="6">
+                <TextBlock TextAlignment="Right" Width="240" FontSize="24" Padding="6"  Text="On Hand Quantity" Grid.Row="2" />
+                <TextBox x:Name="OnHandQuantityTxt" Text="{Binding Path=OnHandQuantity, Mode=TwoWay}" Width="406" FontSize="20" Grid.Column="1" Grid.Row="2" TabIndex="3" />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="6" Padding="6">
+                <TextBlock TextAlignment="Right" Width="240" FontSize="24" Padding="6" Text="Unit Price" Grid.Row="3" />
+                <TextBox x:Name="UnitPriceTxt" Text="{Binding Path=UnitPrice, Mode=TwoWay}" Width="406" FontSize="20" Grid.Column="1" Grid.Row="3" TabIndex="4" />
+            </StackPanel>
+
+
+        </StackPanel>
+        
+        <StackPanel Grid.Column="2" Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Top" Padding="10" Background="{ThemeResource AppBarBackgroundThemeBrush}">
+            <Button Width="200" FontSize="20" Margin="6" Padding="6" Name="deleteBtn" Click="deleteBtn_Click" TabIndex="5">Delete</Button>
+            <Button Width="200" FontSize="20" Margin="6" Padding="6" Name="editBtn" Click="editBtn_Click" TabIndex="6">Edit</Button>
+            <Button Width="200" FontSize="20" Margin="6" Padding="6" Name="addBtn" Click="addBtn_Click" TabIndex="7">Add</Button>
+            <Button Width="200" FontSize="20" Margin="6" Padding="6" Name="saveBtn" Click="saveBtn_Click" TabIndex="8">Save</Button>
+            <Button Width="200" FontSize="20" Margin="6" Padding="6" Name="cancelBtn" Click="cancelBtn_Click" TabIndex="9">Cancel</Button>
+        </StackPanel>
+        
+        <StackPanel Grid.Column="3" Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Bottom" Padding="10" Background="{ThemeResource AppBarBackgroundThemeBrush}">
+
+            <StackPanel Orientation="Horizontal" Margin="6" Padding="6">
+                <Button Width="200" FontSize="20" Margin="6" Padding="6,6,6,6" Name="ReturnButton" Click="ReturnToMain" TabIndex="12">Main Menu</Button>
+            </StackPanel>
+        </StackPanel>
+
+    </Grid>
+</Page>

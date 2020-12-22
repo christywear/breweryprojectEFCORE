@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Yg/9skinSmRAdHL84T1ZBohBDfx7p6JcK0f78941KhXqlsOglJnRpE9gp14/l47hbZvHlsTM9hXU93D0v2w9Kg==",
+  "dgSpecHash": "g7ICbWra7N3P7bGG/le+AtlJWSWx5IVPcRdIpqvOUbeDwOZrI6qCq0vUv3vPqZNbIS7FsvL3YBi8S8P8ZxEehg==",
   "success": true,
   "projectFilePath": "D:\\classxis\\Fall2020__cs234NCSharp_cs260\\CS234\\project\\entity_framework\\derp\\breweryprojectEFCORE\\TEST_ShoppingCart_Mock\\TEST_ShoppingCart_Mock.csproj",
   "expectedPackageFiles": [
@@ -126,9 +126,7 @@
     "C:\\Users\\wearc\\.nuget\\packages\\system.xml.xdocument\\4.0.11\\system.xml.xdocument.4.0.11.nupkg.sha512",
     "C:\\Users\\wearc\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\wearc\\.nuget\\packages\\system.xml.xpath\\4.3.0\\system.xml.xpath.4.3.0.nupkg.sha512",
-    "C:\\Users\\wearc\\.nuget\\packages\\system.xml.xpath.xmldocument\\4.3.0\\system.xml.xpath.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\wearc\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
-    "C:\\Users\\wearc\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.10\\microsoft.netcore.app.host.win-x64.3.1.10.nupkg.sha512"
+    "C:\\Users\\wearc\\.nuget\\packages\\system.xml.xpath.xmldocument\\4.3.0\\system.xml.xpath.xmldocument.4.3.0.nupkg.sha512"
   ],
   "logs": []
 }

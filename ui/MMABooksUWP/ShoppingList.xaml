@@ -1,0 +1,46 @@
+﻿<Page
+    xmlns:controls="using:Microsoft.Toolkit.Uwp.UI.Controls"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MMABooksUWP"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:Custom="using:Microsoft.Toolkit.Uwp.UI.Controls"
+    x:Class="MMABooksUWP.ShoppingList"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" 
+    Loaded="Page_Loaded">
+    
+    <Grid  FocusVisualPrimaryBrush="#FF959595" Background="{ThemeResource SystemRevealChromeGrayColor}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="639*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="HomeNavButton" Content="Home" Margin="276,21,0,0" VerticalAlignment="Top" FontFamily="Arial" FontSize="24" Background="#FFB4B4B4" Foreground="Black" FocusVisualPrimaryBrush="#FFFDFDFD" Click="HomeNavButton_Click" Height="173" Width="302"/>
+        <Button x:Name="BrewNavButton" Content="Brew" Margin="578,21,0,0" VerticalAlignment="Top" FontFamily="Arial" FontSize="24" Background="#FFB4B4B4" Foreground="Black" FocusVisualPrimaryBrush="#FFFDFDFD" Height="173" Width="301"/>
+        <Button x:Name="SalesNavButton" Content="Sales" Margin="879,21,0,0" VerticalAlignment="Top" FontFamily="Arial" FontSize="24" Background="#FFB4B4B4" Foreground="Black" FocusVisualPrimaryBrush="#FFFDFDFD" Height="173" Width="302"/>
+        <Button x:Name="PubNavButton" Content="Pub" Margin="1181,21,0,0" VerticalAlignment="Top" FontFamily="Arial" FontSize="24" Background="#FFB4B4B4" Foreground="Black" FocusVisualPrimaryBrush="#FFFDFDFD" Height="173" Width="301"/>
+        <TextBlock x:Name="ShoppingList_block" Text="Shopping List" HorizontalAlignment="Left" Height="55"  TextWrapping="Wrap" VerticalAlignment="Top" Width="263" Margin="630,237,0,0" Foreground="Black" FontFamily="Arial" FontSize="36" FontWeight="Bold"/>
+        <CalendarDatePicker x:Name="StartDateData" Margin="50,326,0,0" VerticalAlignment="Top" HorizontalContentAlignment="Left" Height="62" Width="134"/>
+        <CalendarDatePicker x:Name="EndDateData" Margin="360,325,0,0" VerticalAlignment="Top" Height="62" Width="134" RenderTransformOrigin="-0.187,0.758"/>
+        <TextBox x:Name="SearchForThisRecipe_txt" Margin="664,338,0,0" Text="Enter Recipe Name or ID" TextWrapping="Wrap" FontFamily="Arial" FontSize="22" TextAlignment="Center" PlaceholderText="Enter Recipe Name or ID" AcceptsReturn="True" VerticalAlignment="Top" HorizontalAlignment="Left" Width="336" FontStretch="Expanded" Foreground="Black" Background="#99D4D4D4" PlaceholderForeground="#99000000" FocusVisualPrimaryBrush="Black" SelectionHighlightColorWhenNotFocused="Black" TextChanged="SearchForThisRecipe_txt_TextChanged"/>
+        <Button x:Name="searchButton" Content="Search" Margin="1030,325,0,0" VerticalAlignment="Top" Click="searchButton_Click" FontFamily="Arial" FontSize="20" Height="62" Width="100" Foreground="Black"/>
+        <Image HorizontalAlignment="Left" Height="184" Margin="0,10,0,0" VerticalAlignment="Top" Width="280" Source="/Assets/transparentLogo.png" Stretch="Fill"/>
+        <TextBlock HorizontalAlignment="Left" Margin="63,273,0,0" Text="Start Date" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Arial" FontSize="24" Foreground="Black"/>
+        <TextBlock HorizontalAlignment="Left" Margin="377,273,0,0" Text="End Date" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Arial" FontSize="24" FocusVisualPrimaryBrush="Black" Foreground="Black"/>
+
+        <Custom:DataGrid 
+            Visibility="Collapsed"
+            CanUserSortColumns="True"
+            BorderThickness="2"
+            BorderBrush="DarkSlateGray"
+            AlternatingRowBackground="BlanchedAlmond"
+            AutoGenerateColumns="False"
+            HorizontalAlignment="Left" 
+            Height="569" 
+            Margin="10,421,0,0" 
+            VerticalAlignment="Top" 
+            Width="1472"
+             FontFamily="Segoe UI"/>
+    </Grid>
+</Page>

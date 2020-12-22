@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "xg3ZHwovN84TDvccAXNTQzvF4G+7gTYzsKLIgWaDSi5+3jttf2kf4iUL57McyzNADE5yqgvqkq680UCinaDYgg==",
+  "dgSpecHash": "NdQBEVuxHwYGVj6oXenopXbwh7CG9hH1b2XyLiKwMIPjtdRslVo805fxAJhjU+u4hmLujzhzkA5AdIX9anpvlg==",
   "success": true,
   "projectFilePath": "D:\\classxis\\Fall2020__cs234NCSharp_cs260\\CS234\\project\\entity_framework\\derp\\breweryprojectEFCORE\\BreweryEFCoreClasses\\BreweryEFCoreClasses.csproj",
   "expectedPackageFiles": [
@@ -130,8 +130,7 @@
     "C:\\Users\\wearc\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\wearc\\.nuget\\packages\\system.xml.xmldocument\\4.0.1\\system.xml.xmldocument.4.0.1.nupkg.sha512",
     "C:\\Users\\wearc\\.nuget\\packages\\system.xml.xpath\\4.0.1\\system.xml.xpath.4.0.1.nupkg.sha512",
-    "C:\\Users\\wearc\\.nuget\\packages\\system.xml.xpath.xmldocument\\4.0.1\\system.xml.xpath.xmldocument.4.0.1.nupkg.sha512",
-    "C:\\Users\\wearc\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512"
+    "C:\\Users\\wearc\\.nuget\\packages\\system.xml.xpath.xmldocument\\4.0.1\\system.xml.xpath.xmldocument.4.0.1.nupkg.sha512"
   ],
   "logs": []
 }
